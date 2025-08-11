@@ -1,0 +1,1247 @@
+[
+  {
+    "name": "Achatina",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Allosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Carno",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/MegaCarno_Character_BP.MegaCarno_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Deathworm",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Fire Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/MegaWyvern_Character_BP_Fire.MegaWyvern_Character_BP_Fire'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Leedsichthys",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Megalodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/MegaMegalodon_Character_BP.MegaMegalodon_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Mosasaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP_Mega.Mosa_Character_BP_Mega'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Raptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/MegaRaptor_Character_BP.MegaRaptor_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Rex",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Tusoteuthis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Mega_Tusoteuthis_Character_BP.Mega_Tusoteuthis_Character_BP'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Ammonite",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Anglerfish",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Anglerfish/Angler_Character_BP.Angler_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Lure", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Ankylosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ankylosaurus/Ankylo_Character_BP.Ankylo_Character_BP'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Araneo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/SpiderS_Character_BP.SpiderS_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Archaeopteryx",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Archaeopteryx/Archa_Character_BP.Archa_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Wings", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Argentavis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Arthropluera",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Baryonyx",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Basilosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Beelzebufo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Toad/Toad_Character_BP.Toad_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Brontosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Broodmother Lysrix",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/SpiderL_Character_BP.SpiderL_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Chalicotherium",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Carbonemys",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP.Turtle_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Carnotaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP.Carno_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Castoroides",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Beaver/Beaver_Character_BP.Beaver_Character_BP'",
+    "colorRegions": ["Body", "Tail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Cnidaria",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Coelacanth",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP.Coel_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Compy",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Compy/Compy_Character_BP.Compy_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Daeodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Deathworm",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Deathworm/Deathworm_Character_BP.Deathworm_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dilophosaur",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dilo/Dilo_Character_BP.Dilo_Character_BP'",
+    "colorRegions": ["Body", "Crest", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dimetrodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP.Dimetro_Character_BP'",
+    "colorRegions": ["Body", "Sail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dimorphodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Diplocaulus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP.Diplocaulus_Character_BP'",
+    "colorRegions": ["Body", "Head", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Diplodocus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Direbear",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP.Direbear_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Direwolf",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dodo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "DodoRex",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/DodoRex_Character_BP.DodoRex_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dodo Wyvern",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/DodoWyvern_Character_BP.DodoWyvern_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Doedicurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dragon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/Dragon_Character_BP.Dragon_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dung Beetle",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dunkleosteus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Electrophorus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP.Eel_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Equus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP.Equus_Character_BP'",
+    "colorRegions": ["Body", "Mane", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Gigantopithecus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Griffin",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Hesperornis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hesperornis/Hesperornis_Character_BP.Hesperornis_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Hyaenodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Hyaenodon/Hyaenodon_Character_BP.Hyaenodon_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Ichthyornis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ichthyornis/Ichthyornis_Character_BP.Ichthyornis_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Ichthyosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dolphin/Dolphin_Character_BP.Dolphin_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Iguanodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP.Iguanodon_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Jerboa",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Jerboa_Character_BP.Jerboa_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Jerboa",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Jerboa/Bone_Jerboa_Character_BP.Bone_Jerboa_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Jug Bug",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/Jugbug_Character_BaseBP.Jugbug_Character_BaseBP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Oil Jug Bug",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Water Jug Bug",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/JugBug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Kairuku",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kairuku/Kairuku_Character_BP.Kairuku_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Kaprosuchus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Kentrosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Kentrosaurus/Kentro_Character_BP.Kentro_Character_BP'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Leech",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character.Leech_Character'",
+    "colorRegions": ["Body", "Segments", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Diseased Leech",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leech/Leech_Character_Diseased.Leech_Character_Diseased'",
+    "colorRegions": ["Body", "Segments", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Leedsichthys",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Liopleurodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Liopleurodon/Liopleurodon_Character_BP.Liopleurodon_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Lymantria",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Lystrosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP.Lystro_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Mammoth",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Manta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Manticore",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Manticore/Manticore_Character_BP.Manticore_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Mantis",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megalania",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megaloceros",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stag/Stag_Character_BP.Stag_Character_BP'",
+    "colorRegions": ["Body", "Antlers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megalodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megalosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Meganeura",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megapithecus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/Gorilla_Character_BP.Gorilla_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megatherium",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Mesopithecus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Monkey/Monkey_Character_BP.Monkey_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Microraptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Microraptor/Microraptor_Character_BP.Microraptor_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Morellatops",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Camelsaurus/camelsaurus_Character_BP.camelsaurus_Character_BP'",
+    "colorRegions": ["Body", "Hump", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Mosasaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Pachyrhinosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP'",
+    "colorRegions": ["Body", "Horn", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Paraceratherium",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Parasaurolophus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/Para_Character_BP.Para_Character_BP'",
+    "colorRegions": ["Body", "Crest", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Pegomastax",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pegomastax/Pegomastax_Character_BP.Pegomastax_Character_BP'",
+    "colorRegions": ["Body", "Crest", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Pelagornis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Phiomia",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Phiomia/Phiomia_Character_BP.Phiomia_Character_BP'",
+    "colorRegions": ["Body", "Trunk", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Phoenix",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Piranha",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Plesiosaur",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Procoptodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Procoptodon/Procoptodon_Character_BP.Procoptodon_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Pteranodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Pteranodon/Ptero_Character_BP.Ptero_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Pulmonoscorpius",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Scorpion/Scorpion_Character_BP.Scorpion_Character_BP'",
+    "colorRegions": ["Body", "Claws", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Purlovia",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP.Purlovia_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Quetzalcoatlus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Raptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP.Raptor_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rex",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rock Elemental",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP'",
+    "colorRegions": ["Body", "Rock", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rubble Golem",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/RockGolem/RubbleGolem_Character_BP.RubbleGolem_Character_BP'",
+    "colorRegions": ["Body", "Rock", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Sabertooth",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Sabertooth Salmon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Sarco",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP.Sarco_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Bronto",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sauropod/Bone_Sauropod_Character_BP.Bone_Sauropod_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Carnotaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Bone_MegaCarno_Character_BP.Bone_MegaCarno_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Giganotosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Giganotosaurus/Bone_Gigant_Character_BP.Bone_Gigant_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Quetzal",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/Bone_Quetz_Character_BP.Bone_Quetz_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Raptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Bone_MegaRaptor_Character_BP.Bone_MegaRaptor_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Rex",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/Bone_MegaRex_Character_BP.Bone_MegaRex_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Stego",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Bone_Stego_Character_BP.Bone_Stego_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Skeletal Trike",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Bone_Trike_Character_BP.Bone_Trike_Character_BP'",
+    "colorRegions": ["Body", "Bones", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Spino",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP.Spino_Character_BP'",
+    "colorRegions": ["Body", "Sail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Stegosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tapejara",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Terror Bird",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Therizinosaur",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Thorny Dragon",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP'",
+    "colorRegions": ["Body", "Spines", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Thylacoleo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Titanoboa",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Boa/BoaFrill_Character_BP.BoaFrill_Character_BP'",
+    "colorRegions": ["Body", "Scales", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Titanomyrma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Flying Titanomyrma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Titanosaur",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Titanosaur/Titanosaur_Character_BP.Titanosaur_Character_BP'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Triceratops",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP'",
+    "colorRegions": ["Body", "Horns", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Super Turkey",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turkey/Turkey_Character_BP.Turkey_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Tusoteuthis",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Vulture",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Vulture/Vulture_Character_BP.Vulture_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Base.Wyvern_Character_BP_Base'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Fire Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Lightning Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Poison Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Ice Wyvern",
+    "blueprint": "Blueprint'/Game/Mods/Ragnarok/Custom_Assets/Dinos/Wyvern/Ragnarok_Wyvern_Override_Ice.Ragnarok_Wyvern_Override_Ice'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Bone Fire Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Bone_MegaWyvern_Character_BP_Fire.Bone_MegaWyvern_Character_BP_Fire'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Zombie Fire Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieFire.Wyvern_Character_BP_ZombieFire'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Zombie Lightning Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombieLightning.Wyvern_Character_BP_ZombieLightning'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Zombie Poison Wyvern",
+    "blueprint": "Blueprint'/Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_ZombiePoison.Wyvern_Character_BP_ZombiePoison'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Woolly Rhino",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/WoollyRhino/Rhino_Character_BP.Rhino_Character_BP'",
+    "colorRegions": ["Body", "Horn", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Yeti",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Yutyrannus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Zomdodo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/ZombieDodo_Character_BP.ZombieDodo_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Aberrant Coelacanth",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Coelacanth/Coel_Character_BP_Aberrant.Coel_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Achatina",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP_Aberrant.Achatina_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Carbonemys",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Turtle/Turtle_Character_BP_Aberrant.Turtle_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Carnotaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Carno/Carno_Character_BP_Aberrant.Carno_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Cnidaria",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP_Aberrant.Cnidaria_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Dimetrodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimetrodon/Dimetro_Character_BP_Aberrant.Dimetro_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Sail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Dimorphodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP_Aberrant.Dimorph_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Diplocaulus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplocaulus/Diplocaulus_Character_BP_Aberrant.Diplocaulus_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Head", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Diplodocus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP_Aberrant.Diplodocus_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Dodo",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP_Aberrant.Dodo_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Aberrant Doedicurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Dung Beetle",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Electrophorus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Eel/Eel_Character_BP_Aberrant.Eel_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Equus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Equus/Equus_Character_BP_Aberrant.Equus_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Mane", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Iguanodon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Iguanodon/Iguanodon_Character_BP_Aberrant.Iguanodon_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Lystrosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Lystrosaurus/Lystro_Character_BP_Aberrant.Lystro_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Manta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Manta/Manta_Character_BP_Aberrant.Manta_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Megalania",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP_Aberrant.Megalania_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Megalosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP_Aberrant.Megalosaurus_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Meganeura",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP_Aberrant.Dragonfly_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Moschops",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Moschops/Moschops_Character_BP_Aberrant.Moschops_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Purlovia",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Purlovia/Purlovia_Character_BP_Aberrant.Purlovia_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Raptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/Raptor_Character_BP_Aberrant.Raptor_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Salmon",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_Aberrant.Salmon_Character_Aberrant'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Sarco",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP_Aberrant.Sarco_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Spino",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spino/Spino_Character_BP_Aberrant.Spino_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Sail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Stegosaurus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/Stego_Character_BP_Aberrant.Stego_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Titanoboa",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Boa/BoaFrill_Character_BP_Aberrant.BoaFrill_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Scales", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Trilobite",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Trilobite/Trilobite_Character_Aberrant.Trilobite_Character_Aberrant'",
+    "colorRegions": ["Body", "Shell", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Basilisk",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/MegaBasilisk_Character_BP.MegaBasilisk_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Karkinos",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/MegaCrab_Character_BP.MegaCrab_Character_BP'",
+    "colorRegions": ["Body", "Claws", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Basilisk",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Basilisk/Basilisk_Character_BP.Basilisk_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Bulldog",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternPug/LanternPug_Character_BP.LanternPug_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Featherlight",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternBird/LanternBird_Character_BP.LanternBird_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Glowbug",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP'",
+    "colorRegions": ["Body", "Glow", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Glowtail",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternLizard/LanternLizard_Character_BP.LanternLizard_Character_BP'",
+    "colorRegions": ["Body", "Tail", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Karkinos",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Crab/Crab_Character_BP.Crab_Character_BP'",
+    "colorRegions": ["Body", "Claws", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Lamprey",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Lamprey/Lamprey_Character.Lamprey_Character'",
+    "colorRegions": ["Body", "Segments", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Nameless",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/ChupaCabra/ChupaCabra_Character_BP.ChupaCabra_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP.Rockwell_Character_BP'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Alpha",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Hard.Rockwell_Character_BP_Hard'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Beta",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Medium.Rockwell_Character_BP_Medium'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Gamma",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/Rockwell_Character_BP_Easy.Rockwell_Character_BP_Easy'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Tentacle",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/RockwellTentacle_Character_BP.RockwellTentacle_Character_BP'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Tentacle Alpha",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/RockwellTentacle_Character_BP_Alpha.RockwellTentacle_Character_BP_Alpha'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Tentacle Beta",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/RockwellTentacle_Character_BP_Beta.RockwellTentacle_Character_BP_Beta'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Tentacle Gamma",
+    "blueprint": "Blueprint'/Game/Aberration/Boss/Rockwell/RockwellTentacle_Character_BP_Gamma.RockwellTentacle_Character_BP_Gamma'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Roll Rat",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/MoleRat/MoleRat_Character_BP.MoleRat_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Seeker",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Shinehorn",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/LanternGoat/LanternGoat_Character_BP.LanternGoat_Character_BP'",
+    "colorRegions": ["Body", "Horns", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tek Raptor",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Raptor/BionicRaptor_Character_BP.BionicRaptor_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tek Quetzal",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Quetzalcoatlus/BionicQuetz_Character_BP.BionicQuetz_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Tek Rex",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tek Stego",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Stego/BionicStego_Character_BP.BionicStego_Character_BP'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tek Parasaur",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP'",
+    "colorRegions": ["Body", "Crest", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Direbear",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Direbear/Direbear_Character_BP_Aberrant.Direbear_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Aberrant Gigantopithecus",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP_Aberrant.Bigfoot_Character_BP_Aberrant'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Alpha Surface Reaper King",
+    "blueprint": "Blueprint'/Game/Aberration/Dinos/Xenomorph/MegaXenomorph_Character_BP_Male_Surface.MegaXenomorph_Character_BP_Male_Surface'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Overseer",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/EndBoss/EndBoss_Character.EndBoss_Character'",
+    "colorRegions": ["Body", "Surface", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Overseer Gamma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/EndBoss/EndBoss_Character_Easy.EndBoss_Character_Easy'",
+    "colorRegions": ["Body", "Surface", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Overseer Beta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/EndBoss/EndBoss_Character_Medium.EndBoss_Character_Medium'",
+    "colorRegions": ["Body", "Surface", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Overseer Alpha",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/EndBoss/EndBoss_Character_Hard.EndBoss_Character_Hard'",
+    "colorRegions": ["Body", "Surface", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Broodmother Guardian",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/EndBossSpiderL_Character_BP.EndBossSpiderL_Character_BP'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Broodmother Lysrix Gamma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/EndBossSpiderL_Character_BP_Easy.EndBossSpiderL_Character_BP_Easy'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Broodmother Lysrix Beta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/EndBossSpiderL_Character_BP_Medium.EndBossSpiderL_Character_BP_Medium'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Broodmother Lysrix Alpha",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Spider/EndBossSpiderL_Character_BP_Hard.EndBossSpiderL_Character_BP_Hard'",
+    "colorRegions": ["Body", "Legs", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dragon Guardian",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/EndBossDragon_Character_BP.EndBossDragon_Character_BP'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dragon Gamma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/EndBossDragon_Character_BP_Easy.EndBossDragon_Character_BP_Easy'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dragon Beta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/EndBossDragon_Character_BP_Medium.EndBossDragon_Character_BP_Medium'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Dragon Alpha",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Dragon/EndBossDragon_Character_BP_Hard.EndBossDragon_Character_BP_Hard'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megapithecus Guardian",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/EndBossGorilla_Character_BP.EndBossGorilla_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megapithecus Gamma",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/EndBossGorilla_Character_BP_Easy.EndBossGorilla_Character_BP_Easy'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megapithecus Beta",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/EndBossGorilla_Character_BP_Medium.EndBossGorilla_Character_BP_Medium'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Megapithecus Alpha",
+    "blueprint": "Blueprint'/Game/PrimalEarth/Dinos/Gorilla/EndBossGorilla_Character_BP_Hard.EndBossGorilla_Character_BP_Hard'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Snow Owl",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "Managarmr",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Ice Titan",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/IceKaiju/IceKaiju_Character_BP.IceKaiju_Character_BP'",
+    "colorRegions": ["Body", "Spikes", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Mek",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Mek/Mek_Character_BP.Mek_Character_BP'",
+    "colorRegions": ["Body", "Metal", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Gasbags",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/GasBag/GasBags_Character_BP.GasBags_Character_BP'",
+    "colorRegions": ["Body", "Bladder", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Velonasaur",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP'",
+    "colorRegions": ["Body", "Spines", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Gacha",
+    "blueprint": "Blueprint'/Game/Extinction/Dinos/Gacha/Gacha_Character_BP.Gacha_Character_BP'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rare X-Sabertooth Salmon",
+    "blueprint": "Blueprint'/Game/Genesis/Dinos/MissionVariants/Lunar/Salmon/Rare_Lunar_Salmon_Character_BP_C.Rare_Lunar_Salmon_Character_BP_C'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Astrodelphis",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/SpaceDolphin/SpaceDolphin_Character_BP_C.SpaceDolphin_Character_BP_C'",
+    "colorRegions": ["Body", "Fins", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Maewing",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/MilkGlider/MilkGlider_Character_BP_C.MilkGlider_Character_BP_C'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Shadowmane",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/Lion/Lion_Character_BP_C.Lion_Character_BP_C'",
+    "colorRegions": ["Body", "Mane", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Noglin",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BrainSlug/BrainSlug_Character_BP_C.BrainSlug_Character_BP_C'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Tek Stryder",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/TekStrider/TekStrider_Character_BP_C.TekStrider_Character_BP_C'",
+    "colorRegions": ["Body", "Metal", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Voidwyrm",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/TekWyvern/TekWyvern_Character_BP_C.TekWyvern_Character_BP_C'",
+    "colorRegions": ["Body", "Wings", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Summoner",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/Summoner/Summoner_Character_BP_C.Summoner_Character_BP_C'",
+    "colorRegions": ["Body", "Glow", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Allosaurus",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Volcano_Allo_Character_BP_C.Volcano_Allo_Character_BP_C'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Ankylosaurus",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Volcano_Ankylo_Character_BP_C.Volcano_Ankylo_Character_BP_C'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Brontosaurus",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Sauropod_Character_BP_C.Sauropod_Character_BP_C'",
+    "colorRegions": ["Body", "Neck", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Carnotaurus",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Carno_Character_BP_C.Carno_Character_BP_C'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Daeodon",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Daeodon_Character_BP_C.Daeodon_Character_BP_C'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Direbear",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Direbear_Character_BP_C.Direbear_Character_BP_C'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Gasbags",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/GasBags_Character_BP_C.GasBags_Character_BP_C'",
+    "colorRegions": ["Body", "Bladder", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Megatherium",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Megatherium_Character_BP_C.Megatherium_Character_BP_C'",
+    "colorRegions": ["Body", "Fur", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Parasaur",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Bog_Para_Character_BP_C.Bog_Para_Character_BP_C'",
+    "colorRegions": ["Body", "Crest", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Reaper King",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Xenomorph_Character_BP_Male_C.Xenomorph_Character_BP_Male_C'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Rex",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Volcano_Rex_Character_BP_C.Volcano_Rex_Character_BP_C'",
+    "colorRegions": ["Body", "Spine", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Snow Owl",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Owl_Character_BP_C.Owl_Character_BP_C'",
+    "colorRegions": ["Body", "Feathers", "Belly", "Beak", "Feet", "Highlights"]
+  },
+  {
+    "name": "R-Stegosaurus",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Stego_Character_BP_C.Stego_Character_BP_C'",
+    "colorRegions": ["Body", "Plates", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Triceratops",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Volcano_Trike_Character_BP_C.Volcano_Trike_Character_BP_C'",
+    "colorRegions": ["Body", "Horns", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "R-Velonasaur",
+    "blueprint": "Blueprint'/Game/Genesis2/Dinos/BiomeVariants/Spindles_Character_BP_C.Spindles_Character_BP_C'",
+    "colorRegions": ["Body", "Spines", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Prime",
+    "blueprint": "Blueprint'/Game/Genesis2/Boss/RockwellNode/RockwellNode_Character_BP_C.RockwellNode_Character_BP_C'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Prime Alpha",
+    "blueprint": "Blueprint'/Game/Genesis2/Boss/RockwellNode/RockwellNode_Character_BP_Hard_C.RockwellNode_Character_BP_Hard_C'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Prime Beta",
+    "blueprint": "Blueprint'/Game/Genesis2/Boss/RockwellNode/RockwellNode_Character_BP_Medium_C.RockwellNode_Character_BP_Medium_C'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  },
+  {
+    "name": "Rockwell Prime Gamma",
+    "blueprint": "Blueprint'/Game/Genesis2/Boss/RockwellNode/RockwellNode_Character_BP_Easy_C.RockwellNode_Character_BP_Easy_C'",
+    "colorRegions": ["Body", "Tentacles", "Belly", "Back", "Pattern", "Highlights"]
+  }
+]

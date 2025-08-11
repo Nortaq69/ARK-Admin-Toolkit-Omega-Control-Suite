@@ -1,0 +1,1316 @@
+[
+  {
+    "name": "Enable Cheats",
+    "syntax": "admincheat EnableCheats <Password>",
+    "description": "Enables access to cheat commands using the server admin password.",
+    "category": "admin"
+  },
+  {
+    "name": "Set Cheat Player",
+    "syntax": "admincheat SetCheatPlayer <True / False>",
+    "description": "Enables or disables cheats for the player who executes it.",
+    "category": "admin"
+  },
+  {
+    "name": "Add Experience",
+    "syntax": "admincheat AddExperience <Amount> <From Tribe> <Prevent Sharing With Tribe>",
+    "description": "Adds experience points to the player's experience amount.",
+    "category": "player"
+  },
+  {
+    "name": "Allow Player To Join No Check",
+    "syntax": "admincheat AllowPlayerToJoinNoCheck <Steam ID>",
+    "description": "Adds a player to the server's whitelist using their numerical Steam ID.",
+    "category": "admin"
+  },
+  {
+    "name": "Disallow Player To Join No Check",
+    "syntax": "admincheat DisallowPlayerToJoinNoCheck <Steam ID>",
+    "description": "Removes a player from the server's whitelist using their numerical Steam ID.",
+    "category": "admin"
+  },
+  {
+    "name": "Auto Cycle",
+    "syntax": "admincheat AutoCycle <Duration>",
+    "description": "Provides unlimited health for the specified duration to the player.",
+    "category": "player"
+  },
+  {
+    "name": "Ban Player",
+    "syntax": "admincheat BanPlayer <Steam ID>",
+    "description": "Bans a player by their Steam ID, preventing them from reconnecting.",
+    "category": "admin"
+  },
+  {
+    "name": "Broadcast",
+    "syntax": "admincheat Broadcast <Message>",
+    "description": "Sends a message to all players currently connected to the server.",
+    "category": "communication"
+  },
+  {
+    "name": "Change Weather",
+    "syntax": "admincheat CE <Type>",
+    "description": "Changes the weather to the specified weather type.",
+    "category": "environment"
+  },
+  {
+    "name": "Change Size",
+    "syntax": "admincheat ChangeSize <Multiplier>",
+    "description": "Changes the player's character size based on the specified multiplier.",
+    "category": "player"
+  },
+  {
+    "name": "Clear Player Inventory",
+    "syntax": "admincheat ClearPlayerInventory <UE4 ID> <Inventory> <Slot Items> <Equipped Items>",
+    "description": "Clears the inventory of the player with the specified numerical ID.",
+    "category": "player"
+  },
+  {
+    "name": "Clear Tutorials",
+    "syntax": "admincheat ClearTutorials",
+    "description": "Resets the player's tutorial position, re-enabling it from the start.",
+    "category": "player"
+  },
+  {
+    "name": "Debug Structures",
+    "syntax": "admincheat DebugStructures",
+    "description": "Toggles the structure debug interface on or off.",
+    "category": "debug"
+  },
+  {
+    "name": "Destroy All",
+    "syntax": "admincheat DestroyAll <Entity ID>",
+    "description": "Removes all creatures of the specified entity/creature ID.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy All Enemies",
+    "syntax": "admincheat DestroyAllEnemies",
+    "description": "Clears the map of all non-player creatures, including tamed ones.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy My Target",
+    "syntax": "admincheat DestroyMyTarget",
+    "description": "Removes the creature, entity, or structure under the player's crosshair.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy Structures",
+    "syntax": "admincheat DestroyStructures",
+    "description": "Removes all structures on the map, including player-owned ones.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy Tribe Dinos",
+    "syntax": "admincheat DestroyTribeDinos",
+    "description": "Destroys all dinos belonging to the tribe of the entity under the player's crosshair.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Tribe Players",
+    "syntax": "admincheat DestroyTribePlayers",
+    "description": "Destroys all players in the tribe of the entity under the player's crosshair.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Tribe Structures",
+    "syntax": "admincheat DestroyTribeStructures",
+    "description": "Destroys all structures belonging to the tribe of the entity under the player's crosshair.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Wild Dinos",
+    "syntax": "admincheat DestroyWildDinos",
+    "description": "Destroys all non-tamed creatures on the map.",
+    "category": "environment"
+  },
+  {
+    "name": "Disable Spectator",
+    "syntax": "admincheat DisableSpectator",
+    "description": "Exits spectator mode for the player.",
+    "category": "player"
+  },
+  {
+    "name": "Do Exit",
+    "syntax": "admincheat DoExit",
+    "description": "Shuts down the server at the earliest possible time.",
+    "category": "server"
+  },
+  {
+    "name": "Do Restart Level",
+    "syntax": "admincheat DoRestartLevel",
+    "description": "Restarts the map.",
+    "category": "server"
+  },
+  {
+    "name": "Do Tame",
+    "syntax": "admincheat DoTame",
+    "description": "Tames the creature currently under the player's crosshair, if tamable.",
+    "category": "dino"
+  },
+  {
+    "name": "Enemy Invisible",
+    "syntax": "admincheat EnemyInvisible <True / False>",
+    "description": "Makes creatures not attack the player, even if provoked.",
+    "category": "player"
+  },
+  {
+    "name": "Exec Set Sleeping",
+    "syntax": "admincheat ExecSetSleeping <True / False>",
+    "description": "Puts the player to sleep or wakes them up.",
+    "category": "player"
+  },
+  {
+    "name": "Fly",
+    "syntax": "admincheat Fly",
+    "description": "Enables fly mode, disabling collisions with objects.",
+    "category": "movement"
+  },
+  {
+    "name": "Force Tame",
+    "syntax": "admincheat ForceTame",
+    "description": "Forcefully tames the creature under the player's crosshair, rideable without a saddle.",
+    "category": "dino"
+  },
+  {
+    "name": "Force Tame AOE",
+    "syntax": "admincheat ForceTameAOE <Radius>",
+    "description": "Forcefully tames all dinos within the specified radius.",
+    "category": "dino"
+  },
+  {
+    "name": "Force Player To Join Target Tribe",
+    "syntax": "admincheat ForcePlayerToJoinTargetTribe <UE4 ID>",
+    "description": "Sets the tribe of the specified player to that of the entity/structure under the crosshair.",
+    "category": "tribe"
+  },
+  {
+    "name": "Force Player To Join Tribe",
+    "syntax": "admincheat ForcePlayerToJoinTribe <UE4 ID> <Tribe Name>",
+    "description": "Forces a player to join the specified tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Force Tribes",
+    "syntax": "admincheat ForceTribes <Player Name> <Player Name> <New Tribe Name>",
+    "description": "Creates a new tribe and forces specified players to join it.",
+    "category": "tribe"
+  },
+  {
+    "name": "Game Command",
+    "syntax": "admincheat GameCommand <Command>",
+    "description": "Runs a command specific to the server's current game mode.",
+    "category": "server"
+  },
+  {
+    "name": "Get Chat",
+    "syntax": "admincheat GetChat",
+    "description": "Retrieves the latest chat messages sent on the server.",
+    "category": "communication"
+  },
+  {
+    "name": "Get All State",
+    "syntax": "admincheat GetAllState <Entity ID>",
+    "description": "Prints information about all entities of the specified type on the map.",
+    "category": "debug"
+  },
+  {
+    "name": "Get Game Log",
+    "syntax": "admincheat GetGameLog",
+    "description": "Prints 100 entries of the game log (requires -servergamelog argument).",
+    "category": "debug"
+  },
+  {
+    "name": "Get Player ID For Steam ID",
+    "syntax": "admincheat GetPlayerIDForSteamID <Steam ID>",
+    "description": "Returns the player ID (UE4) for the specified Steam ID (may not work due to bugs).",
+    "category": "admin"
+  },
+  {
+    "name": "Get Steam ID For Player ID",
+    "syntax": "admincheat GetSteamIDForPlayerID <UE4 ID>",
+    "description": "Returns the Steam ID for the specified player ID (may not work due to bugs).",
+    "category": "admin"
+  },
+  {
+    "name": "Get Tribe ID Player List",
+    "syntax": "admincheat GetTribeIdPlayerList <Tribe ID>",
+    "description": "Lists players in the specified tribe ID.",
+    "category": "tribe"
+  },
+  {
+    "name": "GFI",
+    "syntax": "admincheat GFI <Blueprint / GFI> <Amount> <Quality> <Force Blueprint>",
+    "description": "Adds an item to the player's inventory based on the specified blueprint or GFI code.",
+    "category": "item"
+  },
+  {
+    "name": "Ghost",
+    "syntax": "admincheat Ghost",
+    "description": "Enables noclip mode, allowing the player to pass through objects.",
+    "category": "movement"
+  },
+  {
+    "name": "Give All Structure",
+    "syntax": "admincheat GiveAllStructure",
+    "description": "Gives ownership of the structure and connected structures under the player's crosshair.",
+    "category": "structure"
+  },
+  {
+    "name": "Give Colors",
+    "syntax": "admincheat GiveColors <Amount>",
+    "description": "Gives the player every dye in the game, with the specified amount of each.",
+    "category": "item"
+  },
+  {
+    "name": "Give Creative Mode",
+    "syntax": "admincheat GiveCreativeMode",
+    "description": "Sets the player's gamemode to creative mode.",
+    "category": "player"
+  },
+  {
+    "name": "Give Creative Mode To Target",
+    "syntax": "admincheat GiveCreativeModeToTarget",
+    "description": "Sets the gamemode of the player or entity under the crosshair to creative mode.",
+    "category": "player"
+  },
+  {
+    "name": "Give Creative Mode To Player",
+    "syntax": "admincheat GiveCreativeModeToPlayer <UE4 ID>",
+    "description": "Sets the gamemode of the specified player to creative mode.",
+    "category": "player"
+  },
+  {
+    "name": "Give Engrams",
+    "syntax": "admincheat GiveEngrams",
+    "description": "Unlocks all crafting recipes for the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Give Exp To Player",
+    "syntax": "admincheat GiveExpToPlayer <UE4 ID> <Amount> <From Tribe> <Prevent Sharing With Tribe>",
+    "description": "Gives experience points to the specified player.",
+    "category": "player"
+  },
+  {
+    "name": "Give Exp To Target",
+    "syntax": "admincheat GiveExpToTarget <Amount> <From Tribe> <Prevent Sharing With Tribe>",
+    "description": "Gives experience points to the player or dino under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Give Infinite Stats To Target",
+    "syntax": "admincheat GiveInfiniteStatsToTarget",
+    "description": "Gives infinite stats to the player or dino under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Give Item",
+    "syntax": "admincheat GiveItem <Blueprint> <Amount> <Quality> <Force Blueprint>",
+    "description": "Adds an item to the player's inventory based on the full blueprint path.",
+    "category": "item"
+  },
+  {
+    "name": "Give Item Num",
+    "syntax": "admincheat GiveItemNum <Item ID> <Amount> <Quality> <Force Blueprint>",
+    "description": "Adds an item to the player's inventory based on the numerical item ID.",
+    "category": "item"
+  },
+  {
+    "name": "Give Item To Player",
+    "syntax": "admincheat GiveItemToPlayer <UE4 ID> <Blueprint> <Amount> <Quality> <Force Blueprint>",
+    "description": "Adds an item to the specified player's inventory based on the full blueprint path.",
+    "category": "item"
+  },
+  {
+    "name": "Give Item Num To Player",
+    "syntax": "admincheat GiveItemNumToPlayer <UE4 ID> <Item ID> <Amount> <Quality> <Force Blueprint>",
+    "description": "Adds an item to the specified player's inventory based on the numerical item ID.",
+    "category": "item"
+  },
+  {
+    "name": "Give Resources",
+    "syntax": "admincheat GiveResources",
+    "description": "Gives 50 of each resource to the player's inventory.",
+    "category": "item"
+  },
+  {
+    "name": "Give Slot Item",
+    "syntax": "admincheat GiveSlotItem <Blueprint> <Slot Number> <Amount>",
+    "description": "Places an item in the specified inventory slot, with extras going to inventory.",
+    "category": "item"
+  },
+  {
+    "name": "Give Slot Item Num",
+    "syntax": "admincheat GiveSlotItemNum <Item ID> <Slot Number> <Amount>",
+    "description": "Places an item in the specified inventory slot based on item ID, with extras going to inventory.",
+    "category": "item"
+  },
+  {
+    "name": "Give To Me",
+    "syntax": "admincheat GiveToMe",
+    "description": "Makes the player the owner of the entity under the crosshair (does not tame creatures).",
+    "category": "ownership"
+  },
+  {
+    "name": "GM Buff",
+    "syntax": "admincheat GMBuff",
+    "description": "Grants near unlimited experience, infinite stats, god mode, and makes creatures ignore the player.",
+    "category": "player"
+  },
+  {
+    "name": "GM Summon",
+    "syntax": "admincheat GMSummon <Entity ID> <Creature Level>",
+    "description": "Spawns a creature with the specified entity ID and level in front of the player.",
+    "category": "dino"
+  },
+  {
+    "name": "God",
+    "syntax": "admincheat God",
+    "description": "Enables or disables god mode, making the player invincible to most damage (except drowning).",
+    "category": "player"
+  },
+  {
+    "name": "Hide Tutorial",
+    "syntax": "admincheat HideTutorial <Tutorial ID>",
+    "description": "Hides the specified tutorial (0 for Blank, 1 for Your first day).",
+    "category": "player"
+  },
+  {
+    "name": "Hurt Me",
+    "syntax": ".Advcheat HurtMe <Amount>",
+    "description": "Damages the player's character by the specified amount.",
+    "category:": "player"
+  },
+  {
+    "name": "Infinite Stats",
+    "syntax": "admincheat InfiniteStats",
+    "description": "Grants the player infinite health, oxygen, stamina, food, and water.",
+    "category": "player"
+  },
+  {
+    "name": "Kick Player",
+    "syntax": "admincheat KickPlayer <Steam ID>",
+    "description": "Kicks a player from the server by their Steam ID (does not ban).",
+    "category": "admin"
+  },
+  {
+    "name": "Kill",
+    "syntax": "admincheat Kill",
+    "description": "Kills the entity or structure under the player's crosshair, leaving a corpse.",
+    "category": "environment"
+  },
+  {
+    "name": "Kill Player",
+    "syntax": "admincheat KillPlayer <UE4 ID>",
+    "description": "Kills the player with the specified player ID.",
+    "category": "player"
+  },
+  {
+    "name": "Kill AOE",
+    "syntax": "admincheat KillAOE <Category> <Radius>",
+    "description": "Destroys all entities of the specified category within the given radius.",
+    "category": "environment"
+  },
+  {
+    "name": "Leave Me Alone",
+    "syntax": "admincheat LeaveMeAlone",
+    "description": "Enables god mode, infinite stats, and makes creatures ignore the player.",
+    "category": "player"
+  },
+  {
+    "name": "List Players",
+    "syntax": "admincheat ListPlayers",
+    "description": "Lists all players connected to the server with their Steam IDs.",
+    "category": "admin"
+  },
+  {
+    "name": "Make Tribe Admin",
+    "syntax": "admincheat MakeTribeAdmin",
+    "description": "Makes the player an admin of their current tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Make Tribe Founder",
+    "syntax": "admincheat MakeTribeFounder",
+    "description": "Makes the player the founder of their current tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "On Toggle In Game Menu",
+    "syntax": "admincheat OnToggleInGameMenu",
+    "description": "Toggles the in-game menu.",
+    "category": "interface"
+  },
+  {
+    "name": "Open Map",
+    "syntax": "admincheat OpenMap <Map Name>",
+    "description": "Loads the specified map.",
+    "category": "map"
+  },
+  {
+    "name": "Players Only",
+    "syntax": "admincheat PlayersOnly",
+    "description": "Halts creature movement and crafting (toggles on/off).",
+    "category": "server"
+  },
+  {
+    "name": "Print Colors",
+    "syntax": "admincheat PrintColors",
+    "description": "Prints the IDs of all colors in the game.",
+    "category": "debug"
+  },
+  {
+    "name": "Rain Critters",
+    "syntax": "admincheat RainCritters <Amount> <Spread Radius> <Height>",
+    "description": "Spawns a random selection of sheep and dodos above the player.",
+    "category": "dino"
+  },
+  {
+    "name": "Remove Tribe Admin",
+    "syntax": "admincheat RemoveTribeAdmin",
+    "description": "Removes all admins (except the player) from the current tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Rename Player",
+    "syntax": "admincheat RenamePlayer <Player Name> <New Name>",
+    "description": "Changes the name of the specified player.",
+    "category": "player"
+  },
+  {
+    "name": "Rename Tribe",
+    "syntax": "admincheat RenameTribe <Tribe Name> <New Name>",
+    "description": "Changes the name of the specified tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Request Spectator",
+    "syntax": "admincheat RequestSpectator <Password>",
+    "description": "Puts the player in spectator mode if the correct password is provided.",
+    "category": "player"
+  },
+  {
+    "name": "Save World",
+    "syntax": "admincheat SaveWorld",
+    "description": "Forcefully saves the map on servers or singleplayer.",
+    "category": "server"
+  },
+  {
+    "name": "Script Command",
+    "syntax": "admincheat ScriptCommand <Command>",
+    "description": "Runs a script or command specific to the server's game mode.",
+    "category": "server"
+  },
+  {
+    "name": "SDF",
+    "syntax": "admincheat SDF <Creature ID> <Tamed> <Level>",
+    "description": "Spawns a creature with a random level in front of the player.",
+    "category": "dino"
+  },
+  {
+    "name": "Server Chat",
+    "syntax": "admincheat ServerChat <Message>",
+    "description": "Sends a message to all players on the server.",
+    "category": "communication"
+  },
+  {
+    "name": "Server Chat To",
+    "syntax": "admincheat ServerChatTo <Steam ID> <Message>",
+    "description": "Sends a private message from the server to the player with the specified Steam ID.",
+    "category": "communication"
+  },
+  {
+    "name": "Server Chat To Player",
+    "syntax": "admincheat ServerChatToPlayer <Name> <Message>",
+    "description": "Sends a private message from the server to the player with the specified name.",
+    "category": "communication"
+  },
+  {
+    "name": "Set Admin Icon",
+    "syntax": "admincheat SetAdminIcon <True / False>",
+    "description": "Shows or hides the admin icon in the in-game chat.",
+    "category": "interface"
+  },
+  {
+    "name": "Set Baby Age",
+    "syntax": "admincheat SetBabyAge <Age>",
+    "description": "Sets the age of the baby creature under the player's crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Set Facial Hair Percent",
+    "syntax": "admincheat SetFacialHairPercent <Percentage>",
+    "description": "Sets the player's facial hair percentage.",
+    "category": "player"
+  },
+  {
+    "name": "Set Facial Hair Style",
+    "syntax": "admincheat SetFacialHairStyle <Facial Hair ID>",
+    "description": "Sets the player's facial hair style based on the specified ID (0-7).",
+    "category": "player"
+  },
+  {
+    "name": "Set Global Pause",
+    "syntax": "admincheat SetGlobalPause <True/False>",
+    "description": "Pauses or unpauses the game/server completely.",
+    "category": "server"
+  },
+  {
+    "name": "Set God Mode",
+    "syntax": "admincheat SetGodMode <True/False>",
+    "description": "Enables or disables god mode, making the player invincible to most damage.",
+    "category": "player"
+  },
+  {
+    "name": "Set Graphics Quality",
+    "syntax": "admincheat SetGraphicsQuality <Quality>",
+    "description": "Sets the client's graphics quality (0-3).",
+    "category": "interface"
+  },
+  {
+    "name": "Set Head Hair Percent",
+    "syntax": "admincheat SetHeadHairPercent <Percentage>",
+    "description": "Sets the percentage of hair on the player's head.",
+    "category": "player"
+  },
+  {
+    "name": "Set Head Hair Style",
+    "syntax": "admincheat SetHeadHairStyle <Hair ID>",
+    "description": "Sets the player's hair style based on the specified ID (0-7).",
+    "category": "player"
+  },
+  {
+    "name": "Set Imprint Quality",
+    "syntax": "admincheat SetImprintQuality <Percentage>",
+    "description": "Sets the imprint quality of the entity under the player's crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Set Message Of The Day",
+    "syntax": "admincheat SetMessageOfTheDay <Message>",
+    "description": "Sets the server's message of the day, displayed to players upon connection.",
+    "category": "server"
+  },
+  {
+    "name": "Set Show All Players",
+    "syntax": "admincheat SetShowAllPlayers <True / False>",
+    "description": "Enables or disables player names in spectator mode.",
+    "category": "interface"
+  },
+  {
+    "name": "Set Target Dino Color",
+    "syntax": "admincheat SetTargetDinoColor <Region> <Color ID>",
+    "description": "Sets the color of the dino region under the player's crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Set Target Player Body Val",
+    "syntax": "admincheat SetTargetPlayerBodyVal <Body Region ID> <Scale>",
+    "description": "Resizes a specific part of a character's body under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Set Target Player Color Val",
+    "syntax": "admincheat SetTargetPlayerColorVal <Body Part> <Color>",
+    "description": "Recolors a specific part of a character's body under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Set Player Pos",
+    "syntax": "admincheat SetPlayerPos <X> <Y> <Z>",
+    "description": "Teleports the player to the specified coordinates.",
+    "category": "movement"
+  },
+  {
+    "name": "Set Time Of Day",
+    "syntax": "admincheat SetTimeOfDay <Hour:Minute[:Second]>",
+    "description": "Sets the time of day in the game world.",
+    "category": "environment"
+  },
+  {
+    "name": "Show In Game Menu",
+    "syntax": "admincheat ShowInGameMenu",
+    "description": "Shows the in-game menu.",
+    "category": "interface"
+  },
+  {
+    "name": "Show Message Of The Day",
+    "syntax": "admincheat ShowMessageOfTheDay",
+    "description": "Displays the server's current message of the day to the player.",
+    "category": "server"
+  },
+  {
+    "name": "Show Tutorial",
+    "syntax": "admincheat ShowTutorial <Tutorial ID> <Force Display>",
+    "description": "Shows the specified tutorial to the player.",
+    "category": "player"
+  },
+  {
+    "name": "Slomo",
+    "syntax": "admincheat Slomo <Multiplier>",
+    "description": "Sets the game speed multiplier (1 is default speed).",
+    "category": "server"
+  },
+  {
+    "name": "Spawn Actor",
+    "syntax": "admincheat SpawnActor <Blueprint> <Spawn Distance> <Y Offset> <Z Offset>",
+    "description": "Spawns an entity with a random level based on the blueprint specified.",
+    "category": "environment"
+  },
+  {
+    "name": "Spawn Actor Spread",
+    "syntax": "admincheat SpawnActorSpread <Blueprint> <Spawn Distance> <Y Offset> <Z Offset> <Amount> <Radius>",
+    "description": "Spawns multiple entities based on the blueprint within a specified radius.",
+    "category": "environment"
+  },
+  {
+    "name": "Spawn Dino",
+    "syntax": "admincheat SpawnDino <Blueprint> <Spawn Distance> <Y Offset> <Z Offset> <Level>",
+    "description": "Spawns a creature with the specified level and blueprint at the given offsets.",
+    "category": "dino"
+  },
+  {
+    "name": "Suicide",
+    "syntax": "admincheat Suicide",
+    "description": "Forcefully kills the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Summon",
+    "syntax": "admincheat Summon <Entity ID>",
+    "description": "Spawns a creature with the specified entity ID.",
+    "category": "dino"
+  },
+  {
+    "name": "Summon Tamed",
+    "syntax": "admincheat SummonTamed <Entity ID>",
+    "description": "Spawns a tamed creature with the specified entity ID.",
+    "category": "dino"
+  },
+  {
+    "name": "Take All Dino",
+    "syntax": "admincheat TakeAllDino",
+    "description": "Transfers ownership of all dinos from the tribe under the crosshair to the player's tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Take All Structure",
+    "syntax": "admincheat TakeAllStructure",
+    "description": "Transfers ownership of all structures from the tribe under the crosshair to the player's tribe.",
+    "category": "tribe"
+  },
+  {
+    "name": "Teleport",
+    "syntax": "admincheat Teleport",
+    "description": "Moves the player forward until they collide with an object.",
+    "category": "movement"
+  },
+  {
+    "name": "Teleport Player ID To Me",
+    "syntax": "admincheat TeleportPlayerIDToMe <UE4 ID>",
+    "description": "Teleports the specified player to the player's location.",
+    "category": "movement"
+  },
+  {
+    "name": "Teleport Player Name To Me",
+    "syntax": "admincheat TeleportPlayerNameToMe <Player Name>",
+    "description": "Teleports the player with the specified name to the player's location.",
+    "category": "movement"
+  },
+  {
+    "name": "Teleport To Player",
+    "syntax": "admincheat TeleportToPlayer <UE4 ID>",
+    "description": "Teleports the player to the location of the specified player ID.",
+    "category": "movement"
+  },
+  {
+    "name": "Test Steam Refresh Items",
+    "syntax": "admincheat TestSteamRefreshItems",
+    "description": "Checks if Steam can refresh items.",
+    "category": "debug"
+  },
+  {
+    "name": "Toggle Infinite Ammo",
+    "syntax": "admincheat ToggleInfiniteAmmo",
+    "description": "Toggles unlimited ammo for the player's weapons.",
+    "category": "player"
+  },
+  {
+    "name": "Unban Player",
+    "syntax": "admincheat UnbanPlayer <Steam ID>",
+    "description": "Unbans a player from the server using their Steam ID.",
+    "category": "admin"
+  },
+  {
+    "name": "Unlock Engram",
+    "syntax": "admincheat UnlockEngram <Blueprint>",
+    "description": "Unlocks the specified Tek Engram for the player.",
+    "category": "player"
+  },
+  {
+    "name": "Walk",
+    "syntax": "admincheat Walk",
+    "description": "Deactivates fly mode, re-enabling game physics for the player.",
+    "category": "movement"
+  },
+  {
+    "name": "Stat",
+    "syntax": "admincheat Stat <Stat Type>",
+    "description": "Toggles on-screen debug information for the specified stat (FPS, Levels, Unit, UnitGraph).",
+    "category": "debug"
+  },
+  {
+    "name": "Show Debug",
+    "syntax": "admincheat ShowDebug <Debug Type>",
+    "description": "Shows debug information overlays for the specified type (e.g., physics, camera, bones).",
+    "category": "debug"
+  },
+  {
+    "name": "Show My Admin Manager",
+    "syntax": "admincheat ShowMyAdminManager",
+    "description": "Opens the admin management interface with useful admin tools.",
+    "category": "admin"
+  },
+  {
+    "name": "Enable Spectator",
+    "syntax": "admincheat EnableSpectator",
+    "description": "Enables spectator mode for the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Stop Spectating",
+    "syntax": "admincheat StopSpectating",
+    "description": "Disables spectator mode for the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Toggle Gun",
+    "syntax": "admincheat ToggleGun",
+    "description": "Toggles the visibility of the item in the player's hands.",
+    "category": "player"
+  },
+  {
+    "name": "Tribe Message",
+    "syntax": "admincheat TribeMessage <Tribe ID> <Message>",
+    "description": "Sends a message to the specified tribe.",
+    "category": "communication"
+  },
+  {
+    "name": "TP Coords",
+    "syntax": "admincheat TPCoords <GPS Latitude> <GPS Longitude> <Altitude>",
+    "description": "Teleports the player to the specified GPS coordinates.",
+    "category": "movement"
+  },
+  {
+    "name": "SPI",
+    "syntax": "admincheat SPI <X> <Y> <Z> <Yaw> <Pitch>",
+    "description": "Teleports the player to the specified coordinates with set yaw and pitch.",
+    "category": "movement"
+  },
+  {
+    "name": "Destroy Tribe Id",
+    "syntax": "admincheat DestroyTribeId <Tribe ID>",
+    "description": "Deletes the tribe with the specified tribe ID.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Tribe Id Dinos",
+    "syntax": "admincheat DestroyTribeIdDinos <Tribe ID>",
+    "description": "Kills all dinos tamed by the tribe with the specified ID.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Tribe Id Players",
+    "syntax": "admincheat DestroyTribeIdPlayers <Tribe ID>",
+    "description": "Kills all players in the tribe with the specified ID.",
+    "category": "tribe"
+  },
+  {
+    "name": "Destroy Tribe Id Structures",
+    "syntax": "admincheat DestroyTribeIdStructures <Tribe ID>",
+    "description": "Destroys all structures belonging to the tribe with the specified ID.",
+    "category": "tribe"
+  },
+  {
+    "name": "Hide Riders",
+    "syntax": "admincheat HideRiders <True / False>",
+    "description": "Makes dinosaur riders invisible (requires rejoining to become visible again).",
+    "category": "player"
+  },
+  {
+    "name": "Refill Stats",
+    "syntax": "admincheat RefillStats",
+    "description": "Replenishes the player's health, stamina, oxygen, water, and food stats.",
+    "category": "player"
+  },
+  {
+    "name": "Give Armor Set",
+    "syntax": "admincheat GiveArmorSet <Armor Type> <Quality>",
+    "description": "Equips the player with a full set of the specified armor tier and quality.",
+    "category": "item"
+  },
+  {
+    "name": "Give Weapon Set",
+    "syntax": "admincheat GiveWeaponSet <Weapon Set #> <Quality>",
+    "description": "Gives the player a set of weapons based on the specified tier and quality.",
+    "category": "item"
+  },
+  {
+    "name": "Give Item Set",
+    "syntax": "admincheat GiveItemSet <Item Set #>",
+    "description": "Gives the player a set of items based on the specified item set number.",
+    "category": "item"
+  },
+  {
+    "name": "Clear My Buffs",
+    "syntax": "admincheat ClearMyBuffs",
+    "description": "Clears all status effects (buffs) from the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Rain Dinos",
+    "syntax": "admincheat RainDinos <Amount> <Spread Radius> <Height>",
+    "description": "Spawns a random selection of trikes and parasaurs above the player.",
+    "category": "dino"
+  },
+  {
+    "name": "Rain Danger",
+    "syntax": "admincheat RainDanger <Amount> <Spread Radius> <Height>",
+    "description": "Spawns a random selection of Tyrannosauruses and Allosauruses above the player.",
+    "category": "dino"
+  },
+  {
+    "name": "Start Nearest Horde",
+    "syntax": "admincheat StartNearestHorde <Crate / Element> <Difficulty>",
+    "description": "Spawns an Element Node or Orbital Supply Drop on Extinction with the specified difficulty.",
+    "category": "event"
+  },
+  {
+    "name": "List Active Horde Events",
+    "syntax": "admincheat ListActiveHordeEvents",
+    "description": "Lists all active Orbital Supply Drops and Element Nodes with their coordinates (Extinction only).",
+    "category": "event"
+  },
+  {
+    "name": "Toggle Damage Numbers",
+    "syntax": "admincheat ToggleDamageNumbers",
+    "description": "Toggles floating damage numbers on the server.",
+    "category": "interface"
+  },
+  {
+    "name": "Hatch Egg",
+    "syntax": "admincheat HatchEgg",
+    "description": "Instantly completes the incubation of the egg under the player's crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Tribe Structure Audit",
+    "syntax": "admincheat TribeStructureAudit <Tribe ID>",
+    "description": "Lists all structures owned by the specified tribe with their counts.",
+    "category": "tribe"
+  },
+  {
+    "name": "Tribe Dino Audit",
+    "syntax": "admincheat TribeDinoAudit <Tribe ID>",
+    "description": "Lists all dinos owned by the specified tribe with their counts.",
+    "category": "tribe"
+  },
+  {
+    "name": "Level Up",
+    "syntax": "admincheat LevelUp <Stat ID> <Levels>",
+    "description": "Levels up the specified stat for the player or ridden dinosaur.",
+    "category": "player"
+  },
+  {
+    "name": "Level Up AOE",
+    "syntax": "admincheat LevelUpAOE <Stat ID> <Radius> <Levels>",
+    "description": "Levels up the specified stat for all players and dinos within the given radius.",
+    "category": "player"
+  },
+  {
+    "name": "Level Up Target",
+    "syntax": "admincheat LevelUpTarget <Stat ID> <Levels>",
+    "description": "Levels up the specified stat for the player or dino under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Teleport To Player Name",
+    "syntax": "admincheat TeleportToPlayerName <Player Name>",
+    "description": "Teleports the player to the location of the specified player name.",
+    "category": "movement"
+  },
+  {
+    "name": "Teleport To Actor Location",
+    "syntax": "admincheat TeleportToActorLocation <Actor ID>",
+    "description": "Teleports the player to the location of the specified actor ID.",
+    "category": "movement"
+  },
+  {
+    "name": "TP",
+    "syntax": "admincheat TP <Location Code>",
+    "description": "Teleports the player to a predefined location based on the location code.",
+    "category": "movement"
+  },
+  {
+    "name": "Move Target To",
+    "syntax": "admincheat MoveTargetTo <X> <Y> <Z>",
+    "description": "Teleports the entity under the crosshair to the specified coordinates.",
+    "category": "movement"
+  },
+  {
+    "name": "Teleport To Active Horde",
+    "syntax": "admincheat TeleportToActiveHorde <Horde ID>",
+    "description": "Teleports the player to the specified horde event.",
+    "category": "event"
+  },
+  {
+    "name": "Force Join Tribe",
+    "syntax": "admincheat ForceJoinTribe",
+    "description": "Forces the player to join the tribe of the entity under the crosshair.",
+    "category": "tribe"
+  },
+  {
+    "name": "Take Tribe",
+    "syntax": "admincheat TakeTribe <Tribe ID>",
+    "description": "Transfers all dinos and structures of the specified tribe to the player.",
+    "category": "tribe"
+  },
+  {
+    "name": "Give Engrams Tek Only",
+    "syntax": "admincheat GiveEngramsTekOnly",
+    "description": "Unlocks all Tek Engrams for the player until they leave the server.",
+    "category": "player"
+  },
+  {
+    "name": "Give Tek Engrams To",
+    "syntax": "admincheat GiveTekEngramsTo <UE4 ID> <GFI Code>",
+    "description": "Gives and permanently unlocks the specified Tek Engram for the specified player.",
+    "category": "player"
+  },
+  {
+    "name": "Player Command",
+    "syntax": "admincheat Playercommand <Ascend1 / Ascend2 / Ascend3>",
+    "description": "Grants the specified Ascension effect (Gamma, Beta, or Alpha) to the player.",
+    "category": "player"
+  },
+  {
+    "name": "Set My Target Sleeping",
+    "syntax": "admincheat SetMyTargetSleeping <True / False>",
+    "description": "Knocks out or wakes up the entity under the player's crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Max Ascend",
+    "syntax": "admincheat MaxAscend <UE4 ID>",
+    "description": "Unlocks Alpha Rockwell and Alpha Overseer Ascensions for the specified player.",
+    "category": "player"
+  },
+  {
+    "name": "Defeat Boss",
+    "syntax": "admincheat DefeatBoss <UE4 ID> <Boss ID> <Difficulty>",
+    "description": "Defeats the specified boss for the specified player, unlocking associated Tek Engrams.",
+    "category": "player"
+  },
+  {
+    "name": "Defeat All Bosses",
+    "syntax": "admincheat DefeatAllBosses <UE4 ID / 0>",
+    "description": "Defeats and unlocks all Alpha difficulty bosses for the specified player.",
+    "category": "player"
+  },
+  {
+    "name": "Dump Dino Stats",
+    "syntax": "admincheat DumpDinoStats",
+    "description": "Prints all statistics and information about the dinosaur under the crosshair or ridden.",
+    "category": "debug"
+  },
+  {
+    "name": "Set Imprinted Player",
+    "syntax": "admincheat SetImprintedPlayer <Name> <UE4 ID>",
+    "description": "Changes the imprinted player for the dinosaur under the crosshair to the specified player.",
+    "category": "dino"
+  },
+  {
+    "name": "Transfer Imprints",
+    "syntax": "admincheat TransferImprints <UE4 ID> <UE4 ID> <Player Name>",
+    "description": "Transfers all imprinted dinos from one player to another.",
+    "category": "dino"
+  },
+  {
+    "name": "Give Dino Set",
+    "syntax": "admincheat GiveDinoSet <Tier ID> <0 / Amount>",
+    "description": "Spawns a set of dinos based on the specified tier and quantity.",
+    "category": "dino"
+  },
+  {
+    "name": "Spawn Setup Dino",
+    "syntax": "admincheat SpawnSetupDino <Blueprint Path> <Blueprint Path (Saddle)> <Saddle Quality> <Level> <Stats> <Spawn Distance> <Y Offset> <Z Offset>",
+    "description": "Spawns a dinosaur with the specified configuration, including saddle and stats.",
+    "category": "dino"
+  },
+  {
+    "name": "Force Poop",
+    "syntax": "admincheat ForcePoop",
+    "description": "Makes the dinosaur under the crosshair or ridden poop.",
+    "category": "dino"
+  },
+  {
+    "name": "Clear Cryo Sickness",
+    "syntax": "admincheat ClearCryoSickness",
+    "description": "Heals Cryo Sickness of the dinosaur under the crosshair, waking it up.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Reset",
+    "syntax": "admincheat Dino Reset",
+    "description": "Resets blink cooldowns for Enforcers or fuel/heat levels for Meks under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Infinite Blink",
+    "syntax": "admincheat Dino InfiniteBlink",
+    "description": "Disables blink cooldowns for the Enforcer under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Cooldowns",
+    "syntax": "admincheat DinoSet Cooldowns <Amount>",
+    "description": "Sets the blink cooldown slot amount for the Enforcer under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Dont Hide Rider During Blink",
+    "syntax": "admincheat Dino DontHideRiderDuringBlink",
+    "description": "Toggles rider visibility interference during Enforcer blinks.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Blink",
+    "syntax": "admincheat DinoSet Blink <Blink Percentage>",
+    "description": "Sets the forward blink percentage for the Enforcer under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Blink Back",
+    "syntax": "admincheat DinoSet BlinkBack <Blink Percentage>",
+    "description": "Sets the backward blink percentage for the Enforcer under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Inflate",
+    "syntax": "admincheat Dino Inflate",
+    "description": "Fully inflates the Gasbag under the crosshair or ridden to maximum level.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Inflate",
+    "syntax": "admincheat DinoSet Inflate <Amount>",
+    "description": "Increases or decreases the Gasbag's inflation by the specified amount.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Infinite Gas",
+    "syntax": "admincheat Dino InfiniteGas",
+    "description": "Toggles infinite inflation for the Gasbag under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Infinite Fuel",
+    "syntax": "admincheat Dino InfiniteFuel",
+    "description": "Toggles infinite fuel for the Mek under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Fuel",
+    "syntax": "admincheat DinoSet Fuel <Amount>",
+    "description": "Increases or decreases the fuel level of the Mek under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino No Heat",
+    "syntax": "admincheat Dino NoHeat",
+    "description": "Toggles infinite 0% heat for the Mek under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Toggle Upkeep",
+    "syntax": "admincheat Dino ToggleUpkeep",
+    "description": "Toggles the upkeep system (health/fuel subtraction) for the Mek under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Upkeep Interval",
+    "syntax": "admincheat DinoSet UpkeepInterval <Seconds>",
+    "description": "Sets the upkeep interval for the Mek under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Replay Intro",
+    "syntax": "admincheat Dino ReplayIntro",
+    "description": "Replays the VFX intro for the Mega Mek under the crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Set Eat Time",
+    "syntax": "admincheat DinoSet EatTime <Seconds>",
+    "description": "Sets the eating/digestion time for the Gacha under the crosshair or ridden.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Destroy Right Node",
+    "syntax": "admincheat Dino DestroyRightNode",
+    "description": "Destroys the right arm and node of the Forest Titan under the crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Destroy Left Node",
+    "syntax": "admincheat Dino DestroyLeftNode",
+    "description": "Destroys the left arm and node of the Forest Titan under the crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Destroy Center Node",
+    "syntax": "admincheat Dino DestroyCenterNode",
+    "description": "Destroys the center node of the Forest Titan under the crosshair.",
+    "category": "dino"
+  },
+  {
+    "name": "Copy Coords To Clipboard",
+    "syntax": "admincheat CopyCoordsToClipboard",
+    "description": "Copies the player's X, Y, Z, Pitch, and Yaw coordinates to the clipboard.",
+    "category": "utility"
+  },
+  {
+    "name": "Shadow Quality",
+    "syntax": "admincheat r.shadowquality <Quality>",
+    "description": "Sets the client's shadow quality to the specified level.",
+    "category": "interface"
+  },
+  {
+    "name": "Preview Mode",
+    "syntax": "admincheat previewmode",
+    "description": "Switches the game to preview mode.",
+    "category": "interface"
+  },
+  {
+    "name": "Open",
+    "syntax": "admincheat Open <IP:Port?Password>",
+    "description": "Connects the game to the server with the specified IP, port, and optional password.",
+    "category": "server"
+  },
+  {
+    "name": "Add Equipment Durability",
+    "syntax": "admincheat AddEquipmentDurability <Amount>",
+    "description": "Adds durability to items in the player's hotbar or equipped items.",
+    "category": "item"
+  },
+  {
+    "name": "Get Egg",
+    "syntax": "admincheat GetEgg",
+    "description": "Spawns a fertilized egg for the dino under the crosshair, making it aggressive if picked up.",
+    "category": "dino"
+  },
+  {
+    "name": "Set Difficulty Value",
+    "syntax": "admincheat SetDifficultyValue <Level>",
+    "description": "Sets the maximum level for wild dino spawns (use DestroyWildDinos afterward).",
+    "category": "server"
+  },
+  {
+    "name": "Force Give Buff",
+    "syntax": "admincheat ForceGiveBuff <Buff ID> <Enable>",
+    "description": "Forcefully enables or disables the specified buff for the player's character.",
+    "category": "player"
+  },
+  {
+    "name": "Set Day",
+    "syntax": "admincheat SetDay <Day>",
+    "description": "Sets the day to the specified number in the game world.",
+    "category": "environment"
+  },
+  {
+    "name": "Force Update Dynamic Config",
+    "syntax": "admincheat ForceUpdateDynamicConfig",
+    "description": "Forcefully applies changes made to the config file.",
+    "category": "server"
+  },
+  {
+    "name": "Destroy Wild Dino Classes",
+    "syntax": "admincheat DestroyWildDinoClasses <Creature ID>",
+    "description": "Kills all wild dinos and creatures matching the specified creature ID.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy Foliage",
+    "syntax": "admincheat DestroyFoliage <Radius> <Add to Inventory> <Tribe Share>",
+    "description": "Destroys foliage and resource nodes within the specified radius, adding resources to inventory.",
+    "category": "environment"
+  },
+  {
+    "name": "Destroy Tribe Structures Less Than",
+    "syntax": "admincheat DestroyTribeStructuresLessThan <Tribe ID> <Minimum Connections>",
+    "description": "Destroys tribe structures with fewer than the specified connections.",
+    "category": "tribe"
+  },
+  {
+    "name": "Debug Allow VR Mission Teleport",
+    "syntax": "admincheat DebugAllowvrMissionTeleport",
+    "description": "Allows teleportation to the final boss in Genesis: Part 1 without completing missions.",
+    "category": "event"
+  },
+  {
+    "name": "Env QA",
+    "syntax": "admincheat EnvQA",
+    "description": "Runs GMBuff, stat fps, stat unit, and GiveArmorSet Tek 0 commands.",
+    "category": "utility"
+  },
+  {
+    "name": "Give All Explorer Notes",
+    "syntax": "admincheat GiveAllExplorerNotes",
+    "description": "Unlocks all Explorer Notes for the player (must be near notes for some).",
+    "category": "player"
+  },
+  {
+    "name": "Give Explorer Note",
+    "syntax": "admincheat GiveExplorerNote <Index>",
+    "description": "Unlocks the Explorer Note at the specified index.",
+    "category": "player"
+  },
+  {
+    "name": "Add Hexagons",
+    "syntax": "admincheat AddHexagons <Amount>",
+    "description": "Gives the player the specified amount of Hexagons.",
+    "category": "item"
+  },
+  {
+    "name": "Infinite Weight",
+    "syntax": "admincheat InfiniteWeight",
+    "description": "Toggles infinite weight for the player's character, removing weight restrictions.",
+    "category": "player"
+  },
+  {
+    "name": "Set Stat On Target",
+    "syntax": "admincheat SetStatOnTarget <Stat> <Value>",
+    "description": "Sets the specified stat to the specified value for the entity under the crosshair.",
+    "category": "player"
+  },
+  {
+    "name": "Spawn Exact Dino",
+    "syntax": "admincheat SpawnExactDino <Blueprint> <Saddle Blueprint> <Saddle Quality> <Base Level> <Extra Levels> <Base Stats> <Added Stats> <Name> <Cloned> <Neutered> <Tamed Date> <Uploaded From> <Imprinter Name> <Imprinter ID> <Imprint Quality> <0> <Region Colors> <Creature ID> <Experience> <Spawn Distance> <Spawn Y> <Spawn Z>",
+    "description": "Spawns a dinosaur with the specified settings (requires cryopod for full functionality).",
+    "category": "dino"
+  },
+  {
+    "name": "Dino Titan Mode",
+    "syntax": "admincheat Dino TitanMode",
+    "description": "Increases Gasbag inflation by 1000% (10x).",
+    "category": "dino"
+  },
+  {
+    "name": "Print Actor Location",
+    "syntax": "admincheat PrintActorLocation <Actor ID>",
+    "description": "Prints the coordinates of the actor with the specified ID to the console.",
+    "category": "debug"
+  }
+]

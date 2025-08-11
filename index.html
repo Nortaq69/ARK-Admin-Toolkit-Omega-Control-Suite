@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayNexus Admin Toolkit: Omega Control Suite</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        // Debug loading issues
+        console.log('🚀 HTML loaded, starting PlayNexus application...');
+        window.addEventListener('load', () => {
+            console.log('✅ Window loaded completely');
+        });
+        window.addEventListener('error', (e) => {
+            console.error('❌ Script error:', e.error);
+        });
+    </script>
+</head>
+<body>
+    <div id="app" class="app-container">
+        <!-- Loading Screen -->
+        <div id="loading-screen" class="loading-screen">
+            <div class="loading-content">
+                <div class="loading-logo">
+                    <div class="playnexus-logo">
+                        <i class="fas fa-gamepad"></i>
+                        <h1>PlayNexus</h1>
+                        <p>Admin Toolkit</p>
+                        <div class="subtitle">Omega Control Suite</div>
+                    </div>
+                </div>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <div class="loading-text">Initializing Systems...</div>
+            </div>
+        </div>
+
+        <!-- Main Interface -->
+        <div id="main-interface" class="main-interface hidden">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <div class="logo">
+                        <i class="fas fa-gamepad"></i>
+                        <span>PlayNexus Admin Toolkit</span>
+                    </div>
+                    <div class="version">v1.0.0 - Omega Control Suite</div>
+                </div>
+                <div class="header-center">
+                    <div class="server-status">
+                        <div class="status-indicator online"></div>
+                        <span>System: Connected</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button class="btn-icon" id="settings-btn" title="Settings">
+                        <i class="fas fa-cog"></i>
+                    </button>
+                    <button class="btn-icon" id="help-btn" title="Help">
+                        <i class="fas fa-question-circle"></i>
+                    </button>
+                    <button class="btn-icon" id="minimize-btn" title="Minimize">
+                        <i class="fas fa-window-minimize"></i>
+                    </button>
+                    <button class="btn-icon" id="close-btn" title="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Navigation -->
+            <nav class="app-nav">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-tab="dashboard">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </button>
+                    <button class="nav-tab" data-tab="spawner">
+                        <i class="fas fa-dragon"></i>
+                        <span>Dino Spawner</span>
+                    </button>
+                    <button class="nav-tab" data-tab="items">
+                        <i class="fas fa-box"></i>
+                        <span>Item Spawner</span>
+                    </button>
+                    <button class="nav-tab" data-tab="terminals">
+                        <i class="fas fa-user-astronaut"></i>
+                        <span>Terminals</span>
+                    </button>
+                    <button class="nav-tab" data-tab="map">
+                        <i class="fas fa-map"></i>
+                        <span>Map Tools</span>
+                    </button>
+                    <button class="nav-tab" data-tab="commands">
+                        <i class="fas fa-terminal"></i>
+                        <span>Commands</span>
+                    </button>
+                    <button class="nav-tab" data-tab="macros">
+                        <i class="fas fa-magic"></i>
+                        <span>Macros</span>
+                    </button>
+                    <button class="nav-tab" data-tab="players">
+                        <i class="fas fa-users"></i>
+                        <span>Players</span>
+                    </button>
+                    <button class="nav-tab" data-tab="server">
+                        <i class="fas fa-server"></i>
+                        <span>Server</span>
+                    </button>
+                    <button class="nav-tab" data-tab="cinema">
+                        <i class="fas fa-video"></i>
+                        <span>Cinema</span>
+                    </button>
+                </div>
+            </nav>
+
+            <!-- Main Content Area -->
+            <main class="app-content">
+                <!-- Dashboard Tab -->
+                <div id="dashboard" class="tab-content active">
+                    <div class="dashboard-grid">
+                        <div class="dashboard-card stats-card">
+                            <h3>Server Statistics</h3>
+                            <div class="stats-grid">
+                                <div class="stat-item">
+                                    <div class="stat-value" id="player-count">0</div>
+                                    <div class="stat-label">Players Online</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="dino-count">0</div>
+                                    <div class="stat-label">Dinosaurs</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="server-uptime">0h</div>
+                                    <div class="stat-label">Uptime</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-value" id="memory-usage">0%</div>
+                                    <div class="stat-label">Memory</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card quick-actions">
+                            <h3>Quick Actions</h3>
+                            <div class="action-buttons">
+                                <button class="action-btn" data-action="spawn-giga">
+                                    <i class="fas fa-dragon"></i>
+                                    <span>Spawn Giga</span>
+                                </button>
+                                <button class="action-btn" data-action="teleport-spawn">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Teleport to Spawn</span>
+                                </button>
+                                <button class="action-btn" data-action="clear-inventory">
+                                    <i class="fas fa-trash"></i>
+                                    <span>Clear Inventory</span>
+                                </button>
+                                <button class="action-btn" data-action="god-mode">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span>God Mode</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card recent-commands">
+                            <h3>Recent Commands</h3>
+                            <div class="command-list" id="recent-commands-list">
+                                <!-- Commands will be populated here -->
+                            </div>
+                        </div>
+
+                        <div class="dashboard-card admin-assistant">
+                            <h3>Admin Assistant</h3>
+                            <div class="assistant-chat">
+                                <div class="chat-messages" id="assistant-messages">
+                                    <div class="message assistant">
+                                        <i class="fas fa-robot"></i>
+                                        <div class="message-content">
+                                            Hello, Admin! How can I help you today?
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="chat-input">
+                                    <input type="text" id="assistant-input" placeholder="Ask me anything about ARK admin commands...">
+                                    <button id="assistant-send">
+                                        <i class="fas fa-paper-plane"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dino Spawner Tab -->
+                <div id="spawner" class="tab-content">
+                    <div class="spawner-container">
+                        <div class="spawner-left">
+                            <div class="spawner-card">
+                                <h3>Recommended Creatures</h3>
+                                <div class="recommended-creatures">
+                                    <div id="recommended-creature-buttons"></div>
+                                </div>
+                            </div>
+                            <div class="spawner-card">
+                                <h3>Dino Configuration</h3>
+                                <div class="form-group">
+                                    <label>Species</label>
+                                    <div class="search-input">
+                                        <input type="text" id="dino-search" placeholder="Search dinos...">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                    <select id="dino-species" class="form-select">
+                                        <option value="">Select a species...</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Type</label>
+                                    <div class="radio-group">
+                                        <label class="radio-option">
+                                            <input type="radio" name="dino-type" value="wild" checked>
+                                            <span>Wild</span>
+                                        </label>
+                                        <label class="radio-option">
+                                            <input type="radio" name="dino-type" value="tamed">
+                                            <span>Tamed</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Gender</label>
+                                    <div class="radio-group">
+                                        <label class="radio-option">
+                                            <input type="radio" name="dino-gender" value="random" checked>
+                                            <span>Random</span>
+                                        </label>
+                                        <label class="radio-option">
+                                            <input type="radio" name="dino-gender" value="male">
+                                            <span>Male</span>
+                                        </label>
+                                        <label class="radio-option">
+                                            <input type="radio" name="dino-gender" value="female">
+                                            <span>Female</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label>Level</label>
+                                    <div class="range-slider">
+                                        <input type="range" id="dino-level" min="1" max="450" value="150">
+                                        <span class="range-value" id="dino-level-value">150</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spawner-card">
+                                <h3>Stats Configuration</h3>
+                                <div class="stats-config">
+                                    <div class="stat-slider">
+                                        <label>Health</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-hp" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-hp-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Stamina</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-stamina" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-stamina-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Oxygen</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-oxygen" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-oxygen-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Food</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-food" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-food-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Weight</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-weight" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-weight-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Melee</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-melee" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-melee-value">50</span>
+                                        </div>
+                                    </div>
+                                    <div class="stat-slider">
+                                        <label>Speed</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="stat-speed" min="0" max="100" value="50">
+                                            <span class="range-value" id="stat-speed-value">50</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="spawner-right">
+                            <div class="spawner-card">
+                                <h3>Color Regions</h3>
+                                <div class="color-regions" id="color-regions">
+                                    <!-- Color regions will be populated here -->
+                                </div>
+                            </div>
+
+                            <div class="spawner-card">
+                                <h3>Spawn Options</h3>
+                                <div class="spawn-options">
+                                    <div class="form-group">
+                                        <label class="checkbox-option">
+                                            <input type="checkbox" id="spawn-saddle">
+                                            <span>Include Saddle</span>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="checkbox-option">
+                                            <input type="checkbox" id="mass-spawn">
+                                            <span>Mass Spawn</span>
+                                        </label>
+                                        <input type="number" id="spawn-quantity" min="1" max="100" value="1" class="form-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Distance</label>
+                                        <input type="number" id="spawn-distance" min="1" max="1000" value="100" class="form-input">
+                                    </div>
+                                </div>
+                                <button class="btn-primary btn-spawn" id="spawn-dino">
+                                    <i class="fas fa-magic"></i>
+                                    Spawn Dinosaur
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item Spawner Tab -->
+                <div id="items" class="tab-content">
+                    <div class="items-container">
+                        <div class="items-left">
+                            <div class="items-card">
+                                <h3>Item Search</h3>
+                                <div class="search-input">
+                                    <input type="text" id="item-search" placeholder="Search items...">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="item-categories">
+                                    <button class="category-btn active" data-category="all">All</button>
+                                    <button class="category-btn" data-category="weapons">Weapons</button>
+                                    <button class="category-btn" data-category="armor">Armor</button>
+                                    <button class="category-btn" data-category="tools">Tools</button>
+                                    <button class="category-btn" data-category="resources">Resources</button>
+                                    <button class="category-btn" data-category="structures">Structures</button>
+                                </div>
+                                <div class="items-list" id="items-list">
+                                    <!-- Items will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="items-right">
+                            <div class="items-card">
+                                <h3>Item Configuration</h3>
+                                <div class="item-config">
+                                    <div class="form-group">
+                                        <label>Selected Item</label>
+                                        <div class="selected-item" id="selected-item">
+                                            <span>No item selected</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input type="number" id="item-quantity" min="1" max="1000" value="1" class="form-input">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Quality</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="item-quality" min="1" max="1000" value="100">
+                                            <span class="range-value" id="item-quality-value">100</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="checkbox-option">
+                                            <input type="checkbox" id="item-blueprint">
+                                            <span>Blueprint</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="checkbox-option">
+                                            <input type="checkbox" id="item-stacker">
+                                            <span>Stacker Mode (x1000)</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn-primary btn-spawn" id="spawn-item">
+                                    <i class="fas fa-box"></i>
+                                    Spawn Item
+                                </button>
+                            </div>
+
+                            <div class="items-card">
+                                <h3>Quick Kits</h3>
+                                <div class="quick-kits">
+                                    <button class="kit-btn" data-kit="pvp">
+                                        <i class="fas fa-sword"></i>
+                                        <span>PvP Kit</span>
+                                    </button>
+                                    <button class="kit-btn" data-kit="breeder">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Breeder Kit</span>
+                                    </button>
+                                    <button class="kit-btn" data-kit="builder">
+                                        <i class="fas fa-hammer"></i>
+                                        <span>Builder Kit</span>
+                                    </button>
+                                    <button class="kit-btn" data-kit="explorer">
+                                        <i class="fas fa-compass"></i>
+                                        <span>Explorer Kit</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminals Tab -->
+                <div id="terminals" class="tab-content">
+                    <div class="terminals-container">
+                        <div class="terminals-left">
+                            <div class="terminals-card">
+                                <h3>Terminal Type</h3>
+                                <div class="terminal-type-selector">
+                                    <button class="terminal-type-btn active" data-type="mannequin">
+                                        <i class="fas fa-user"></i>
+                                        <span>Mannequin</span>
+                                    </button>
+                                    <button class="terminal-type-btn" data-type="player-terminal">
+                                        <i class="fas fa-terminal"></i>
+                                        <span>Player Terminal</span>
+                                    </button>
+                                </div>
+
+                                <div class="terminal-config">
+                                    <div class="form-group">
+                                        <label>Skin</label>
+                                        <select id="terminal-skin" class="form-select">
+                                            <option value="">Default</option>
+                                            <option value="ghost">Ghost</option>
+                                            <option value="skeleton">Skeleton</option>
+                                            <option value="tek">Tek</option>
+                                            <option value="scuba">Scuba</option>
+                                            <option value="hazmat">Hazmat</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Pose/Emote</label>
+                                        <select id="terminal-pose" class="form-select">
+                                            <option value="">Default</option>
+                                            <option value="wave">Wave</option>
+                                            <option value="dance">Dance</option>
+                                            <option value="sit">Sit</option>
+                                            <option value="sleep">Sleep</option>
+                                            <option value="point">Point</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Armor Set</label>
+                                        <select id="terminal-armor" class="form-select">
+                                            <option value="">None</option>
+                                            <option value="hide">Hide</option>
+                                            <option value="chitin">Chitin</option>
+                                            <option value="flak">Flak</option>
+                                            <option value="riot">Riot</option>
+                                            <option value="tek">Tek</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Color Override</label>
+                                        <input type="color" id="terminal-color" value="#ffffff" class="form-input">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="terminals-right">
+                            <div class="terminals-card">
+                                <h3>Gear Presets</h3>
+                                <div class="gear-presets">
+                                    <button class="preset-btn" data-preset="pvp-kit">
+                                        <i class="fas fa-sword"></i>
+                                        <span>PvP Kit</span>
+                                    </button>
+                                    <button class="preset-btn" data-preset="breeder-kit">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Breeder Kit</span>
+                                    </button>
+                                    <button class="preset-btn" data-preset="builder-kit">
+                                        <i class="fas fa-hammer"></i>
+                                        <span>Builder Kit</span>
+                                    </button>
+                                    <button class="preset-btn" data-preset="explorer-kit">
+                                        <i class="fas fa-compass"></i>
+                                        <span>Explorer Kit</span>
+                                    </button>
+                                </div>
+
+                                <div class="terminal-actions">
+                                    <button class="btn-primary" id="spawn-terminal">
+                                        <i class="fas fa-magic"></i>
+                                        Spawn Terminal
+                                    </button>
+                                    <button class="btn-secondary" id="preview-terminal">
+                                        <i class="fas fa-eye"></i>
+                                        Preview
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="terminals-card">
+                                <h3>Terminal Preview</h3>
+                                <div class="terminal-preview" id="terminal-preview">
+                                    <div class="preview-placeholder">
+                                        <i class="fas fa-user"></i>
+                                        <p>Terminal preview will appear here</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Tools Tab -->
+                <div id="map" class="tab-content">
+                    <div class="map-container">
+                        <div class="map-left">
+                            <div class="map-card">
+                                <h3>Map Controls</h3>
+                                <div class="map-controls">
+                                    <button class="map-btn" id="teleport-mode">
+                                        <i class="fas fa-crosshairs"></i>
+                                        <span>Teleport Mode</span>
+                                    </button>
+                                    <button class="map-btn" id="spawn-mode">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Spawn Mode</span>
+                                    </button>
+                                    <button class="map-btn" id="pin-mode">
+                                        <i class="fas fa-thumbtack"></i>
+                                        <span>Pin Mode</span>
+                                    </button>
+                                </div>
+
+                                <div class="map-settings">
+                                    <div class="form-group">
+                                        <label>Day/Night Cycle</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="day-night-slider" min="0" max="24" value="12" step="0.1">
+                                            <span class="range-value" id="day-night-value">12:00</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Weather</label>
+                                        <select id="weather-select" class="form-select">
+                                            <option value="clear">Clear</option>
+                                            <option value="rain">Rain</option>
+                                            <option value="storm">Storm</option>
+                                            <option value="fog">Fog</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="checkbox-option">
+                                            <input type="checkbox" id="fog-of-war">
+                                            <span>Fog of War</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="map-card">
+                                <h3>Saved Locations</h3>
+                                <div class="locations-list" id="locations-list">
+                                    <!-- Saved locations will be populated here -->
+                                </div>
+                                <button class="btn-secondary" id="save-location">
+                                    <i class="fas fa-save"></i>
+                                    Save Current Location
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="map-right">
+                            <div class="map-card">
+                                <h3>ARK Map</h3>
+                                <div class="map-viewport" id="map-viewport">
+                                    <canvas id="map-canvas"></canvas>
+                                    <div class="map-overlay" id="map-overlay">
+                                        <!-- Map overlays will be rendered here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Commands Tab -->
+                <div id="commands" class="tab-content">
+                    <div class="commands-container">
+                        <div class="commands-left">
+                            <div class="commands-card">
+                                <h3>Command Categories</h3>
+                                <div class="command-categories">
+                                    <button class="category-btn active" data-category="all">All Commands</button>
+                                    <button class="category-btn" data-category="utility">Utility</button>
+                                    <button class="category-btn" data-category="dino">Dino</button>
+                                    <button class="category-btn" data-category="pvp">PvP</button>
+                                    <button class="category-btn" data-category="map">Map</button>
+                                    <button class="category-btn" data-category="player">Player</button>
+                                    <button class="category-btn" data-category="server">Server</button>
+                                </div>
+
+                                <div class="command-search">
+                                    <input type="text" id="command-search" placeholder="Search commands...">
+                                </div>
+
+                                <div class="commands-list" id="commands-list">
+                                    <!-- Commands will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="commands-right">
+                            <div class="commands-card">
+                                <h3>Command Details</h3>
+                                <div class="command-details" id="command-details">
+                                    <div class="detail-placeholder">
+                                        <i class="fas fa-terminal"></i>
+                                        <p>Select a command to view details</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="commands-card">
+                                <h3>Command Builder</h3>
+                                <div class="command-builder">
+                                    <div class="form-group">
+                                        <label>Command</label>
+                                        <input type="text" id="custom-command" placeholder="Enter custom command..." class="form-input">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Parameters</label>
+                                        <textarea id="command-params" placeholder="Enter parameters..." class="form-textarea"></textarea>
+                                    </div>
+                                    <button class="btn-primary" id="execute-command">
+                                        <i class="fas fa-play"></i>
+                                        Execute Command
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Macros Tab -->
+                <div id="macros" class="tab-content">
+                    <div class="macros-container">
+                        <div class="macros-left">
+                            <div class="macros-card">
+                                <h3>Macro Designer</h3>
+                                <div class="macro-builder">
+                                    <div class="form-group">
+                                        <label>Macro Name</label>
+                                        <input type="text" id="macro-name" placeholder="Enter macro name..." class="form-input">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Commands</label>
+                                        <div class="macro-commands" id="macro-commands">
+                                            <!-- Macro commands will be added here -->
+                                        </div>
+                                        <button class="btn-secondary" id="add-command">
+                                            <i class="fas fa-plus"></i>
+                                            Add Command
+                                        </button>
+                                    </div>
+
+                                    <div class="macro-actions">
+                                        <button class="btn-primary" id="save-macro">
+                                            <i class="fas fa-save"></i>
+                                            Save Macro
+                                        </button>
+                                        <button class="btn-secondary" id="load-macro">
+                                            <i class="fas fa-folder-open"></i>
+                                            Load Macro
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="macros-right">
+                            <div class="macros-card">
+                                <h3>Saved Macros</h3>
+                                <div class="saved-macros" id="saved-macros">
+                                    <!-- Saved macros will be populated here -->
+                                </div>
+                            </div>
+
+                            <div class="macros-card">
+                                <h3>Quick Macros</h3>
+                                <div class="quick-macros">
+                                    <button class="quick-macro-btn" data-macro="wipe-server">
+                                        <i class="fas fa-trash"></i>
+                                        <span>Wipe Server</span>
+                                    </button>
+                                    <button class="quick-macro-btn" data-macro="pvp-event">
+                                        <i class="fas fa-sword"></i>
+                                        <span>PvP Event</span>
+                                    </button>
+                                    <button class="quick-macro-btn" data-macro="breeding-event">
+                                        <i class="fas fa-heart"></i>
+                                        <span>Breeding Event</span>
+                                    </button>
+                                    <button class="quick-macro-btn" data-macro="creative-mode">
+                                        <i class="fas fa-palette"></i>
+                                        <span>Creative Mode</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Players Tab -->
+                <div id="players" class="tab-content">
+                    <div class="players-container">
+                        <div class="players-left">
+                            <div class="players-card">
+                                <h3>Online Players</h3>
+                                <div class="players-list" id="players-list">
+                                    <!-- Players will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="players-right">
+                            <div class="players-card">
+                                <h3>Player Actions</h3>
+                                <div class="player-actions">
+                                    <button class="action-btn" id="teleport-player">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <span>Teleport to Player</span>
+                                    </button>
+                                    <button class="action-btn" id="bring-player">
+                                        <i class="fas fa-user-plus"></i>
+                                        <span>Bring Player</span>
+                                    </button>
+                                    <button class="action-btn" id="kick-player">
+                                        <i class="fas fa-user-times"></i>
+                                        <span>Kick Player</span>
+                                    </button>
+                                    <button class="action-btn" id="ban-player">
+                                        <i class="fas fa-ban"></i>
+                                        <span>Ban Player</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="players-card">
+                                <h3>Gear Cloner</h3>
+                                <div class="gear-cloner">
+                                    <div class="form-group">
+                                        <label>Source Player</label>
+                                        <select id="source-player" class="form-select">
+                                            <option value="">Select player...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Target Player</label>
+                                        <select id="target-player" class="form-select">
+                                            <option value="">Select player...</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn-primary" id="clone-gear">
+                                        <i class="fas fa-copy"></i>
+                                        Clone Gear
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Server Tab -->
+                <div id="server" class="tab-content">
+                    <div class="server-container">
+                        <div class="server-left">
+                            <div class="server-card">
+                                <h3>Server Status</h3>
+                                <div class="server-stats">
+                                    <div class="stat-item">
+                                        <div class="stat-label">CPU Usage</div>
+                                        <div class="stat-value" id="cpu-usage">0%</div>
+                                        <div class="stat-bar">
+                                            <div class="stat-fill" id="cpu-fill"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-label">Memory Usage</div>
+                                        <div class="stat-value" id="memory-usage-detailed">0%</div>
+                                        <div class="stat-bar">
+                                            <div class="stat-fill" id="memory-fill"></div>
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-label">Network</div>
+                                        <div class="stat-value" id="network-usage">0 KB/s</div>
+                                        <div class="stat-bar">
+                                            <div class="stat-fill" id="network-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="server-card">
+                                <h3>Server Controls</h3>
+                                <div class="server-controls">
+                                    <button class="control-btn" id="save-world">
+                                        <i class="fas fa-save"></i>
+                                        <span>Save World</span>
+                                    </button>
+                                    <button class="control-btn" id="restart-server">
+                                        <i class="fas fa-redo"></i>
+                                        <span>Restart Server</span>
+                                    </button>
+                                    <button class="control-btn" id="shutdown-server">
+                                        <i class="fas fa-power-off"></i>
+                                        <span>Shutdown</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="server-right">
+                            <div class="server-card">
+                                <h3>Resource Monitor</h3>
+                                <div class="resource-monitor">
+                                    <canvas id="resource-chart"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="server-card">
+                                <h3>Server Logs</h3>
+                                <div class="server-logs" id="server-logs">
+                                    <!-- Server logs will be populated here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cinema Tab -->
+                <div id="cinema" class="tab-content">
+                    <div class="cinema-container">
+                        <div class="cinema-left">
+                            <div class="cinema-card">
+                                <h3>Cinema Controls</h3>
+                                <div class="cinema-controls">
+                                    <button class="cinema-btn" id="toggle-ui">
+                                        <i class="fas fa-eye-slash"></i>
+                                        <span>Toggle UI</span>
+                                    </button>
+                                    <button class="cinema-btn" id="free-camera">
+                                        <i class="fas fa-camera"></i>
+                                        <span>Free Camera</span>
+                                    </button>
+                                    <button class="cinema-btn" id="auto-pilot">
+                                        <i class="fas fa-route"></i>
+                                        <span>Auto Pilot</span>
+                                    </button>
+                                </div>
+
+                                <div class="camera-settings">
+                                    <div class="form-group">
+                                        <label>Camera Speed</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="camera-speed" min="1" max="10" value="5">
+                                            <span class="range-value" id="camera-speed-value">5</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>FOV</label>
+                                        <div class="range-slider">
+                                            <input type="range" id="camera-fov" min="30" max="120" value="90">
+                                            <span class="range-value" id="camera-fov-value">90</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cinema-card">
+                                <h3>Creative Mode</h3>
+                                <div class="creative-controls">
+                                    <button class="creative-btn" id="instant-build">
+                                        <i class="fas fa-hammer"></i>
+                                        <span>Instant Build</span>
+                                    </button>
+                                    <button class="creative-btn" id="structure-cleaner">
+                                        <i class="fas fa-broom"></i>
+                                        <span>Structure Cleaner</span>
+                                    </button>
+                                    <button class="creative-btn" id="base-preview">
+                                        <i class="fas fa-eye"></i>
+                                        <span>Base Preview</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cinema-right">
+                            <div class="cinema-card">
+                                <h3>Camera Path</h3>
+                                <div class="camera-path" id="camera-path">
+                                    <canvas id="path-canvas"></canvas>
+                                </div>
+                            </div>
+
+                            <div class="cinema-card">
+                                <h3>Recording</h3>
+                                <div class="recording-controls">
+                                    <button class="record-btn" id="start-recording">
+                                        <i class="fas fa-record-vinyl"></i>
+                                        <span>Start Recording</span>
+                                    </button>
+                                    <button class="record-btn" id="stop-recording">
+                                        <i class="fas fa-stop"></i>
+                                        <span>Stop Recording</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <!-- Modals -->
+        <div id="modal-overlay" class="modal-overlay hidden">
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <h3 id="modal-title">Modal Title</h3>
+                    <button class="modal-close" id="modal-close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-content" id="modal-content">
+                    <!-- Modal content will be populated here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Notifications -->
+        <div id="notifications" class="notifications-container">
+            <!-- Notifications will be added here -->
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="assets/js/components.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/spawner.js"></script>
+    <script src="assets/js/terminals.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/commands.js"></script>
+    <script src="assets/js/macros.js"></script>
+    <script src="assets/js/players.js"></script>
+    <script src="assets/js/server.js"></script>
+    <script src="assets/js/cinema.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

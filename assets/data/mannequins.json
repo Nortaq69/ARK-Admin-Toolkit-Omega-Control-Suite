@@ -1,0 +1,112 @@
+{
+  "mannequin_configs": [
+    {
+      "id": "default_mannequin",
+      "name": "Default Mannequin",
+      "blueprint": "PrimalItemStructure_Mannequin_C",
+      "skins": [
+        {
+          "id": "default",
+          "name": "Default",
+          "description": "Standard mannequin appearance"
+        },
+        {
+          "id": "male",
+          "name": "Male",
+          "description": "Male character model"
+        },
+        {
+          "id": "female",
+          "name": "Female",
+          "description": "Female character model"
+        },
+        {
+          "id": "tek",
+          "name": "Tek",
+          "description": "Tek-enhanced mannequin"
+        }
+      ],
+      "poses": [
+        {
+          "id": "idle",
+          "name": "Idle",
+          "description": "Standing idle pose"
+        },
+        {
+          "id": "combat",
+          "name": "Combat",
+          "description": "Combat-ready stance"
+        },
+        {
+          "id": "casual",
+          "name": "Casual",
+          "description": "Relaxed casual pose"
+        },
+        {
+          "id": "heroic",
+          "name": "Heroic",
+          "description": "Heroic victory pose"
+        },
+        {
+          "id": "sitting",
+          "name": "Sitting",
+          "description": "Sitting pose"
+        }
+      ],
+      "color_regions": [
+        {
+          "id": "primary",
+          "name": "Primary Color",
+          "description": "Main body color"
+        },
+        {
+          "id": "secondary",
+          "name": "Secondary Color",
+          "description": "Accent color"
+        },
+        {
+          "id": "accent",
+          "name": "Accent Color",
+          "description": "Highlight color"
+        }
+      ]
+    }
+  ],
+  "equipment_slots": [
+    {
+      "id": "head",
+      "name": "Head",
+      "description": "Helmet or headgear slot"
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "description": "Body armor slot"
+    },
+    {
+      "id": "legs",
+      "name": "Legs",
+      "description": "Leg armor slot"
+    },
+    {
+      "id": "hands",
+      "name": "Hands",
+      "description": "Gloves slot"
+    },
+    {
+      "id": "feet",
+      "name": "Feet",
+      "description": "Boots slot"
+    },
+    {
+      "id": "weapon",
+      "name": "Weapon",
+      "description": "Primary weapon slot"
+    },
+    {
+      "id": "shield",
+      "name": "Shield",
+      "description": "Shield or off-hand slot"
+    }
+  ]
+} 

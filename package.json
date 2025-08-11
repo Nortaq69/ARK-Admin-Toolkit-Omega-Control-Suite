@@ -1,0 +1,59 @@
+{
+  "name": "playnexus-admin-toolkit",
+  "version": "1.0.0",
+  "description": "PlayNexus Admin Toolkit: Omega Control Suite - Ultimate Professional Admin Panel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "build": "electron-builder",
+    "dist": "electron-builder --publish=never",
+    "pack": "electron-builder --dir"
+  },
+  "keywords": [
+    "playnexus",
+    "admin",
+    "toolkit",
+    "omega",
+    "control-suite",
+    "professional",
+    "desktop-app"
+  ],
+  "author": "PlayNexus Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "crypto-js": "^4.2.0",
+    "node-machine-id": "^1.1.12",
+    "three": "^0.158.0"
+  },
+  "build": {
+    "appId": "com.playnexus.toolkit",
+    "productName": "PlayNexus Admin Toolkit",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*",
+      "!dist/**/*",
+      "!build/**/*",
+      "!*.log"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/branding/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "installerIcon": "assets/branding/icon.ico",
+      "uninstallerIcon": "assets/branding/icon.ico"
+    }
+  }
+}

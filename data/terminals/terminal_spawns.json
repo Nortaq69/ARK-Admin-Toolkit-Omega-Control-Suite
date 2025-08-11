@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Player Terminal",
+    "type": "player-terminal",
+    "defaultSkin": "tek"
+  },
+  {
+    "name": "Mannequin",
+    "type": "mannequin",
+    "defaultSkin": "default"
+  }
+] 

@@ -1,0 +1,94 @@
+{
+  "terminals": [
+    {
+      "id": "player-terminal",
+      "name": "Player Terminal",
+      "description": "Interactive terminal for player management",
+      "blueprint": "PrimalItemStructure_PlayerTerminal_C",
+      "skins": [
+        "default",
+        "tek",
+        "metal",
+        "wooden"
+      ],
+      "features": [
+        "player_management",
+        "inventory_access",
+        "teleport_control"
+      ]
+    }
+  ],
+  "mannequins": [
+    {
+      "id": "mannequin",
+      "name": "Mannequin",
+      "description": "Display mannequin for armor and equipment",
+      "blueprint": "PrimalItemStructure_Mannequin_C",
+      "skins": [
+        "default",
+        "male",
+        "female",
+        "tek"
+      ],
+      "poses": [
+        "idle",
+        "combat",
+        "casual",
+        "heroic",
+        "sitting"
+      ],
+      "color_regions": [
+        "primary",
+        "secondary",
+        "accent"
+      ]
+    }
+  ],
+  "armor_sets": [
+    {
+      "name": "Tek Armor",
+      "pieces": [
+        "PrimalItemArmor_TekHelmet_C",
+        "PrimalItemArmor_TekShirt_C",
+        "PrimalItemArmor_TekPants_C",
+        "PrimalItemArmor_TekGloves_C",
+        "PrimalItemArmor_TekBoots_C"
+      ],
+      "stats": {
+        "armor": 100,
+        "durability": 1000,
+        "weight": 50
+      }
+    },
+    {
+      "name": "Flak Armor",
+      "pieces": [
+        "PrimalItemArmor_FlakHelmet_C",
+        "PrimalItemArmor_FlakShirt_C",
+        "PrimalItemArmor_FlakPants_C",
+        "PrimalItemArmor_FlakGloves_C",
+        "PrimalItemArmor_FlakBoots_C"
+      ],
+      "stats": {
+        "armor": 75,
+        "durability": 500,
+        "weight": 40
+      }
+    },
+    {
+      "name": "Hide Armor",
+      "pieces": [
+        "PrimalItemArmor_HideHelmet_C",
+        "PrimalItemArmor_HideShirt_C",
+        "PrimalItemArmor_HidePants_C",
+        "PrimalItemArmor_HideGloves_C",
+        "PrimalItemArmor_HideBoots_C"
+      ],
+      "stats": {
+        "armor": 25,
+        "durability": 200,
+        "weight": 20
+      }
+    }
+  ]
+} 

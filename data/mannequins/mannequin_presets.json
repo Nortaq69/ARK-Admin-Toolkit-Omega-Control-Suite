@@ -1,0 +1,14 @@
+[
+  {
+    "name": "PvP Kit",
+    "skin": "tek",
+    "pose": "combat",
+    "gear": ["Tek Rifle", "Tek Armor", "Element"]
+  },
+  {
+    "name": "Breeder Kit",
+    "skin": "default",
+    "pose": "idle",
+    "gear": ["Cryopod", "Dino Leash", "Kibble"]
+  }
+] 
